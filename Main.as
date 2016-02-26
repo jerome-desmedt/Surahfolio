@@ -43,7 +43,6 @@ package
 		private function onDataLoadComplete(event:Event):void
 		{
 			trace("onDataLoadComplete");
-			
 			addChild(new Header());
 		}
 	}
