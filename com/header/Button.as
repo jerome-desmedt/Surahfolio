@@ -10,7 +10,7 @@ package com.header
 	
 	public class Button extends MenuManager
 	{
-		private var _btn			:HeadButton;
+		private var _btn	:HeadButton;
 		
 		public function Button():void
 		{
