@@ -7,22 +7,19 @@
 package com
 {
 	import com.header.MenuManager;
-	
 	import flash.display.Sprite;
 		
 	public class Header extends Sprite
 	{
-		private var _menu:		MenuManager;
+		private var _menu:	MenuManager;
 		
 		public function Header():void
 		{
 			initHeader();
 		}
-		
 		private function initHeader():void
 		{	
 			addChild(_menu=new MenuManager);
-			
 			_menu.setButtons();
 		}
 	}
